@@ -85,4 +85,10 @@ Trên locked, GBM+MILP hơn chọn ngẫu nhiên +1,33 [1,04; 1,65] và hơn quy
 
 ## 8. Thành viên Nhóm 2
 
-Lê Nhật Thanh, Lê Ngọc Phú, Huỳnh Trúc Ngân, Phạm Thị Thúy Kiều, Trịnh Quang Tân.
+| STT | Họ và tên | MSHV |
+|---|---|---|
+| 1 | Lê Nhật Thanh | C25611254 |
+| 2 | Lê Ngọc Phú | C25611253 |
+| 3 | Huỳnh Trúc Ngân | C25611251 |
+| 4 | Phạm Thị Thúy Kiều | C25611258 |
+| 5 | Trịnh Quang Tân | C25611256 |
