@@ -1,0 +1,6 @@
+﻿chinh_sach,gia_tri_thuc_TB_moi_o,ti_le_so_oracle
+Oracle,7.5674,1.0
+GBM + MILP,2.9407,0.3886
+GBM + Greedy,2.7709,0.3662
+Cùng ca tuần trước + MILP,2.2384,0.2958
+Ngẫu nhiên + MILP,1.6092,0.2126

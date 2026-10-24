@@ -1,0 +1,76 @@
+﻿feature,nhom
+net_out_lag1,Lag 1–5 ngày
+net_out_lag2,Lag 1–5 ngày
+net_out_lag3,Lag 1–5 ngày
+net_out_lag4,Lag 1–5 ngày
+net_out_lag5,Lag 1–5 ngày
+net_out_m5,Trung bình trượt 5–60 ngày
+net_out_m10,Trung bình trượt 5–60 ngày
+net_out_m20,Trung bình trượt 5–60 ngày
+net_out_m60,Trung bình trượt 5–60 ngày
+net_in_lag1,Lag 1–5 ngày
+net_in_lag2,Lag 1–5 ngày
+net_in_lag3,Lag 1–5 ngày
+net_in_lag4,Lag 1–5 ngày
+net_in_lag5,Lag 1–5 ngày
+net_in_m5,Trung bình trượt 5–60 ngày
+net_in_m10,Trung bình trượt 5–60 ngày
+net_in_m20,Trung bình trượt 5–60 ngày
+net_in_m60,Trung bình trượt 5–60 ngày
+n_out_lag1,Lag 1–5 ngày
+n_out_lag2,Lag 1–5 ngày
+n_out_lag3,Lag 1–5 ngày
+n_out_lag4,Lag 1–5 ngày
+n_out_lag5,Lag 1–5 ngày
+n_out_m5,Trung bình trượt 5–60 ngày
+n_out_m10,Trung bình trượt 5–60 ngày
+n_out_m20,Trung bình trượt 5–60 ngày
+n_out_m60,Trung bình trượt 5–60 ngày
+n_in_lag1,Lag 1–5 ngày
+n_in_lag2,Lag 1–5 ngày
+n_in_lag3,Lag 1–5 ngày
+n_in_lag4,Lag 1–5 ngày
+n_in_lag5,Lag 1–5 ngày
+n_in_m5,Trung bình trượt 5–60 ngày
+n_in_m10,Trung bình trượt 5–60 ngày
+n_in_m20,Trung bình trượt 5–60 ngày
+n_in_m60,Trung bình trượt 5–60 ngày
+net_out_lag1_over_tau,Tương đối so với ngưỡng τ
+net_out_lag2_over_tau,Tương đối so với ngưỡng τ
+net_out_lag5_over_tau,Tương đối so với ngưỡng τ
+net_out_m5_over_tau,Tương đối so với ngưỡng τ
+net_out_m10_over_tau,Tương đối so với ngưỡng τ
+net_out_m20_over_tau,Tương đối so với ngưỡng τ
+net_out_m60_over_tau,Tương đối so với ngưỡng τ
+tau_out,Tương đối so với ngưỡng τ
+net_in_lag1_over_tau,Tương đối so với ngưỡng τ
+net_in_lag2_over_tau,Tương đối so với ngưỡng τ
+net_in_lag5_over_tau,Tương đối so với ngưỡng τ
+net_in_m5_over_tau,Tương đối so với ngưỡng τ
+net_in_m10_over_tau,Tương đối so với ngưỡng τ
+net_in_m20_over_tau,Tương đối so với ngưỡng τ
+net_in_m60_over_tau,Tương đối so với ngưỡng τ
+tau_in,Tương đối so với ngưỡng τ
+ev_short_lag1,Tần suất sự kiện gần đây
+ev_short_r10,Tần suất sự kiện gần đây
+ev_short_r20,Tần suất sự kiện gần đây
+ev_short_r60,Tần suất sự kiện gần đây
+ev_full_lag1,Tần suất sự kiện gần đây
+ev_full_r10,Tần suất sự kiện gần đây
+ev_full_r20,Tần suất sự kiện gần đây
+ev_full_r60,Tần suất sự kiện gần đây
+opp_net_out_lag1,Ca đối diện hôm qua
+opp_n_out_lag1,Ca đối diện hôm qua
+opp_n_in_lag1,Ca đối diện hôm qua
+city_out_lag1,Mức cầu toàn hệ thống
+city_out_m20,Mức cầu toàn hệ thống
+city_ratio,Mức cầu toàn hệ thống
+dow,"Lịch (thứ, tháng, lễ, ca)"
+thang,"Lịch (thứ, tháng, lễ, ca)"
+thang_sin,"Lịch (thứ, tháng, lễ, ca)"
+thang_cos,"Lịch (thứ, tháng, lễ, ca)"
+la_ca_sang,"Lịch (thứ, tháng, lễ, ca)"
+la_ngay_le,"Lịch (thứ, tháng, lễ, ca)"
+hom_qua_la_le,"Lịch (thứ, tháng, lễ, ca)"
+lat,Vị trí trạm
+lng,Vị trí trạm

@@ -1,0 +1,19 @@
+﻿kiem_tra,ket_qua,chi_tiet
+Idempotency: không có khoá trùng,Đạt,(688 khoá)
+Chạy lại cho kết quả y hệt (replay),Đạt,
+Đảo thứ tự dữ liệu đầu vào không đổi lệnh và CONTROL,Đạt,(khác biệt 0)
+Lớp 1: mỗi ca <= K trạm,Đạt,(tối đa 8)
+Lớp 1: mỗi ca <= B phút,Đạt,(tối đa 140)
+Lớp 1: mỗi trạm một lần mỗi ca,Đạt,
+Lớp 1: không chọn trạm không hoạt động,Đạt,
+CONTROL trong 8–12% (mục tiêu 10%),Đạt,(11.0%)
+"CONTROL cân bằng điểm dự báo (|SMD| < 0,3)",Đạt,(max 0.14)
+A/A: kết cục không khác giữa hai nhóm (CI chứa 0),Đạt,
+Lớp 3: PSI cao + mô hình kém hơn dự phòng -> dự phòng,Đạt,
+"Lớp 3: PSI cao nhưng mô hình tốt hơn -> giữ mô hình, cảnh báo",Đạt,
+Lớp 3: PSI thấp giữ mô hình,Đạt,
+HITL: gỡ trạm kèm lý do được chấp nhận,Đạt,
+HITL: ghi đè không có lý do bị từ chối,Đạt,
+HITL: thêm trạm khi ca đã đủ K bị từ chối,Đạt,
+HITL: chuyển CONTROL sang can thiệp bị từ chối,Đạt,
+HITL: thêm trạm đã có bị từ chối,Đạt,

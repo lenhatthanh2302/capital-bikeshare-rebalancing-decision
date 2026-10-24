@@ -1,0 +1,15 @@
+﻿label,model,tham_so,val_logloss
+Y_short,GBM,"{'max_depth': 3, 'max_iter': 150}",0.27159520039708446
+Y_short,GBM,"{'max_depth': 3, 'max_iter': 300}",0.2683791760726303
+Y_short,GBM,"{'max_depth': 5, 'max_iter': 150}",0.2656682917574475
+Y_short,GBM,"{'max_depth': 5, 'max_iter': 300}",0.2651527081382685
+Y_short,Logit,C=0.05,0.28191525038350074
+Y_short,Logit,C=0.5,0.2818544000428557
+Y_short,Logit,C=5,0.2818400647160182
+Y_full,GBM,"{'max_depth': 3, 'max_iter': 150}",0.26420574672194247
+Y_full,GBM,"{'max_depth': 3, 'max_iter': 300}",0.2614692461942607
+Y_full,GBM,"{'max_depth': 5, 'max_iter': 150}",0.26090020584201473
+Y_full,GBM,"{'max_depth': 5, 'max_iter': 300}",0.2606305995460562
+Y_full,Logit,C=0.05,0.26949936426579657
+Y_full,Logit,C=0.5,0.2692787166993587
+Y_full,Logit,C=5,0.26927698577677533

@@ -1,0 +1,5 @@
+﻿khoi,dong,ngay,ty_le_Y_short,ty_le_Y_full
+calibration,6720,42,0.077,0.075
+policy_val,7040,44,0.119,0.107
+train,73600,460,0.108,0.096
+validation,6880,43,0.09,0.089

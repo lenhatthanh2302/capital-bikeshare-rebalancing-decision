@@ -1,0 +1,151 @@
+﻿label,feature,nhom,mean_abs_shap,huong_tuong_quan
+Y_short,ev_short_r20,Tần suất sự kiện gần đây,0.2063,0.9232
+Y_short,tau_out,Tương đối so với ngưỡng τ,0.2024,-0.2903
+Y_short,dow,"Lịch (thứ, tháng, lễ, ca)",0.1332,0.0512
+Y_short,city_out_lag1,Mức cầu toàn hệ thống,0.0753,0.639
+Y_short,opp_net_out_lag1,Ca đối diện hôm qua,0.0645,-0.7
+Y_short,n_out_lag4,Lag 1–5 ngày,0.0523,0.692
+Y_short,net_out_lag1_over_tau,Tương đối so với ngưỡng τ,0.0508,0.6261
+Y_short,ev_short_r60,Tần suất sự kiện gần đây,0.0507,0.6754
+Y_short,net_in_lag5_over_tau,Tương đối so với ngưỡng τ,0.0503,-0.2944
+Y_short,tau_in,Tương đối so với ngưỡng τ,0.0479,0.5267
+Y_short,la_ngay_le,"Lịch (thứ, tháng, lễ, ca)",0.0457,0.0803
+Y_short,net_out_lag5_over_tau,Tương đối so với ngưỡng τ,0.0433,0.3853
+Y_short,ev_short_r10,Tần suất sự kiện gần đây,0.0402,0.896
+Y_short,city_ratio,Mức cầu toàn hệ thống,0.0379,0.5433
+Y_short,net_out_m10_over_tau,Tương đối so với ngưỡng τ,0.0379,0.2273
+Y_short,net_in_m20_over_tau,Tương đối so với ngưỡng τ,0.0362,-0.2915
+Y_short,thang_cos,"Lịch (thứ, tháng, lễ, ca)",0.0326,0.1495
+Y_short,net_out_m20_over_tau,Tương đối so với ngưỡng τ,0.0326,0.6885
+Y_short,net_in_m10_over_tau,Tương đối so với ngưỡng τ,0.032,-0.0993
+Y_short,net_out_lag5,Lag 1–5 ngày,0.0314,0.7071
+Y_short,net_out_m20,Trung bình trượt 5–60 ngày,0.0302,0.5874
+Y_short,net_in_m60_over_tau,Tương đối so với ngưỡng τ,0.0272,0.7091
+Y_short,thang,"Lịch (thứ, tháng, lễ, ca)",0.0255,0.2358
+Y_short,ev_full_r20,Tần suất sự kiện gần đây,0.0248,-0.8415
+Y_short,lat,Vị trí trạm,0.0244,-0.6167
+Y_short,city_out_m20,Mức cầu toàn hệ thống,0.024,-0.3576
+Y_short,net_in_m60,Trung bình trượt 5–60 ngày,0.0229,0.7466
+Y_short,net_in_lag1_over_tau,Tương đối so với ngưỡng τ,0.0222,-0.0735
+Y_short,net_out_m5_over_tau,Tương đối so với ngưỡng τ,0.0219,0.0242
+Y_short,net_in_lag2_over_tau,Tương đối so với ngưỡng τ,0.0193,0.6566
+Y_short,n_out_m5,Trung bình trượt 5–60 ngày,0.0176,0.5846
+Y_short,la_ca_sang,"Lịch (thứ, tháng, lễ, ca)",0.017,-0.7614
+Y_short,net_out_m60_over_tau,Tương đối so với ngưỡng τ,0.0151,-0.1112
+Y_short,net_out_m60,Trung bình trượt 5–60 ngày,0.015,-0.7318
+Y_short,net_out_m10,Trung bình trượt 5–60 ngày,0.0149,0.6391
+Y_short,opp_n_in_lag1,Ca đối diện hôm qua,0.0148,0.3865
+Y_short,n_in_lag1,Lag 1–5 ngày,0.0135,-0.352
+Y_short,net_in_m20,Trung bình trượt 5–60 ngày,0.0134,-0.4675
+Y_short,n_out_m60,Trung bình trượt 5–60 ngày,0.0123,0.315
+Y_short,n_out_m20,Trung bình trượt 5–60 ngày,0.0122,0.5386
+Y_short,net_in_m10,Trung bình trượt 5–60 ngày,0.012,-0.5972
+Y_short,opp_n_out_lag1,Ca đối diện hôm qua,0.0112,0.3653
+Y_short,net_in_m5_over_tau,Tương đối so với ngưỡng τ,0.0111,-0.3195
+Y_short,n_out_lag1,Lag 1–5 ngày,0.0108,0.3383
+Y_short,net_out_lag2_over_tau,Tương đối so với ngưỡng τ,0.0107,-0.3922
+Y_short,n_out_lag5,Lag 1–5 ngày,0.0106,0.6817
+Y_short,n_in_m10,Trung bình trượt 5–60 ngày,0.0105,-0.53
+Y_short,n_out_lag3,Lag 1–5 ngày,0.0104,0.6472
+Y_short,ev_full_r60,Tần suất sự kiện gần đây,0.0104,-0.696
+Y_short,n_in_lag2,Lag 1–5 ngày,0.0102,0.1534
+Y_short,n_in_m20,Trung bình trượt 5–60 ngày,0.0102,0.3886
+Y_short,n_in_m60,Trung bình trượt 5–60 ngày,0.0102,-0.044
+Y_short,n_in_lag4,Lag 1–5 ngày,0.01,0.6857
+Y_short,net_out_lag2,Lag 1–5 ngày,0.0099,-0.5659
+Y_short,net_in_lag5,Lag 1–5 ngày,0.0097,-0.7399
+Y_short,n_in_lag5,Lag 1–5 ngày,0.0084,0.0451
+Y_short,n_in_m5,Trung bình trượt 5–60 ngày,0.0083,0.6171
+Y_short,n_in_lag3,Lag 1–5 ngày,0.0081,0.6556
+Y_short,net_out_lag4,Lag 1–5 ngày,0.0081,-0.0605
+Y_short,n_out_lag2,Lag 1–5 ngày,0.0079,0.2728
+Y_short,net_out_lag1,Lag 1–5 ngày,0.0074,0.3995
+Y_short,thang_sin,"Lịch (thứ, tháng, lễ, ca)",0.0067,0.0207
+Y_short,net_in_m5,Trung bình trượt 5–60 ngày,0.0056,-0.6019
+Y_short,lng,Vị trí trạm,0.0056,0.3326
+Y_short,net_out_m5,Trung bình trượt 5–60 ngày,0.0055,0.6242
+Y_short,net_out_lag3,Lag 1–5 ngày,0.0052,-0.1615
+Y_short,ev_full_r10,Tần suất sự kiện gần đây,0.0052,-0.6609
+Y_short,net_in_lag2,Lag 1–5 ngày,0.0035,0.153
+Y_short,n_out_m10,Trung bình trượt 5–60 ngày,0.0034,0.3957
+Y_short,net_in_lag4,Lag 1–5 ngày,0.0032,-0.1165
+Y_short,net_in_lag1,Lag 1–5 ngày,0.003,-0.2023
+Y_short,net_in_lag3,Lag 1–5 ngày,0.0005,0.2368
+Y_short,ev_short_lag1,Tần suất sự kiện gần đây,0.0,
+Y_short,ev_full_lag1,Tần suất sự kiện gần đây,0.0,
+Y_short,hom_qua_la_le,"Lịch (thứ, tháng, lễ, ca)",0.0,
+Y_full,tau_in,Tương đối so với ngưỡng τ,0.3146,0.2708
+Y_full,ev_full_r20,Tần suất sự kiện gần đây,0.2577,0.9013
+Y_full,net_in_lag5_over_tau,Tương đối so với ngưỡng τ,0.0949,0.2667
+Y_full,dow,"Lịch (thứ, tháng, lễ, ca)",0.0897,0.1759
+Y_full,net_in_m5_over_tau,Tương đối so với ngưỡng τ,0.0832,0.8204
+Y_full,n_in_lag1,Lag 1–5 ngày,0.0734,0.7793
+Y_full,la_ngay_le,"Lịch (thứ, tháng, lễ, ca)",0.0584,0.5668
+Y_full,net_in_lag1_over_tau,Tương đối so với ngưỡng τ,0.0526,0.7696
+Y_full,n_out_lag1,Lag 1–5 ngày,0.0521,0.6212
+Y_full,net_out_m5_over_tau,Tương đối so với ngưỡng τ,0.0516,-0.206
+Y_full,city_out_lag1,Mức cầu toàn hệ thống,0.0485,-0.0185
+Y_full,thang,"Lịch (thứ, tháng, lễ, ca)",0.0463,0.5094
+Y_full,net_out_lag5_over_tau,Tương đối so với ngưỡng τ,0.0445,-0.3976
+Y_full,opp_n_in_lag1,Ca đối diện hôm qua,0.0414,-0.7589
+Y_full,ev_full_r60,Tần suất sự kiện gần đây,0.0354,0.7867
+Y_full,net_out_m20_over_tau,Tương đối so với ngưỡng τ,0.0338,-0.2024
+Y_full,opp_n_out_lag1,Ca đối diện hôm qua,0.0295,-0.1008
+Y_full,n_in_m60,Trung bình trượt 5–60 ngày,0.0273,-0.7732
+Y_full,net_out_m10_over_tau,Tương đối so với ngưỡng τ,0.0268,-0.2347
+Y_full,ev_full_r10,Tần suất sự kiện gần đây,0.0253,0.9138
+Y_full,tau_out,Tương đối so với ngưỡng τ,0.0249,0.614
+Y_full,city_out_m20,Mức cầu toàn hệ thống,0.0246,-0.0199
+Y_full,net_out_m60_over_tau,Tương đối so với ngưỡng τ,0.0244,0.3009
+Y_full,city_ratio,Mức cầu toàn hệ thống,0.0242,-0.4665
+Y_full,net_in_m20_over_tau,Tương đối so với ngưỡng τ,0.023,0.7807
+Y_full,net_out_lag4,Lag 1–5 ngày,0.021,-0.5497
+Y_full,n_in_m10,Trung bình trượt 5–60 ngày,0.0194,0.3794
+Y_full,n_in_lag2,Lag 1–5 ngày,0.019,0.4867
+Y_full,thang_sin,"Lịch (thứ, tháng, lễ, ca)",0.019,0.0399
+Y_full,opp_net_out_lag1,Ca đối diện hôm qua,0.0189,0.7469
+Y_full,net_out_m5,Trung bình trượt 5–60 ngày,0.0186,-0.5924
+Y_full,n_out_lag4,Lag 1–5 ngày,0.0182,-0.671
+Y_full,n_out_lag2,Lag 1–5 ngày,0.0175,0.4707
+Y_full,n_out_lag3,Lag 1–5 ngày,0.0162,0.6648
+Y_full,net_in_m10_over_tau,Tương đối so với ngưỡng τ,0.0159,0.5215
+Y_full,thang_cos,"Lịch (thứ, tháng, lễ, ca)",0.0158,0.1458
+Y_full,n_in_lag5,Lag 1–5 ngày,0.0146,0.6865
+Y_full,ev_short_r20,Tần suất sự kiện gần đây,0.0145,-0.5855
+Y_full,net_out_lag5,Lag 1–5 ngày,0.014,-0.4921
+Y_full,net_out_lag1,Lag 1–5 ngày,0.0129,-0.5246
+Y_full,net_out_m10,Trung bình trượt 5–60 ngày,0.0127,0.0499
+Y_full,ev_short_r60,Tần suất sự kiện gần đây,0.0126,-0.0683
+Y_full,net_out_lag1_over_tau,Tương đối so với ngưỡng τ,0.0111,-0.1447
+Y_full,net_in_lag2_over_tau,Tương đối so với ngưỡng τ,0.01,-0.1385
+Y_full,net_out_m60,Trung bình trượt 5–60 ngày,0.0099,0.7114
+Y_full,net_out_lag2_over_tau,Tương đối so với ngưỡng τ,0.0097,0.4766
+Y_full,net_in_m60_over_tau,Tương đối so với ngưỡng τ,0.0096,-0.4679
+Y_full,lat,Vị trí trạm,0.0094,-0.5089
+Y_full,n_out_m10,Trung bình trượt 5–60 ngày,0.0092,0.6258
+Y_full,n_in_m5,Trung bình trượt 5–60 ngày,0.0087,0.5189
+Y_full,net_out_m20,Trung bình trượt 5–60 ngày,0.0086,-0.3974
+Y_full,net_in_m20,Trung bình trượt 5–60 ngày,0.0086,0.4151
+Y_full,n_out_m5,Trung bình trượt 5–60 ngày,0.0083,-0.0348
+Y_full,net_in_m10,Trung bình trượt 5–60 ngày,0.008,0.3827
+Y_full,net_in_m5,Trung bình trượt 5–60 ngày,0.0079,0.5617
+Y_full,lng,Vị trí trạm,0.0075,-0.3196
+Y_full,net_in_m60,Trung bình trượt 5–60 ngày,0.0072,-0.6849
+Y_full,net_out_lag3,Lag 1–5 ngày,0.0066,0.3777
+Y_full,net_in_lag5,Lag 1–5 ngày,0.0057,0.6051
+Y_full,n_in_lag4,Lag 1–5 ngày,0.0057,-0.4106
+Y_full,n_out_m60,Trung bình trượt 5–60 ngày,0.0056,0.2628
+Y_full,n_in_m20,Trung bình trượt 5–60 ngày,0.0051,0.1871
+Y_full,n_out_m20,Trung bình trượt 5–60 ngày,0.0049,0.6803
+Y_full,net_in_lag3,Lag 1–5 ngày,0.0047,-0.4297
+Y_full,n_out_lag5,Lag 1–5 ngày,0.0047,0.2982
+Y_full,net_in_lag4,Lag 1–5 ngày,0.0044,0.256
+Y_full,net_in_lag1,Lag 1–5 ngày,0.0042,0.3863
+Y_full,ev_short_r10,Tần suất sự kiện gần đây,0.0042,-0.6496
+Y_full,la_ca_sang,"Lịch (thứ, tháng, lễ, ca)",0.0036,0.0704
+Y_full,n_in_lag3,Lag 1–5 ngày,0.0033,0.11
+Y_full,net_in_lag2,Lag 1–5 ngày,0.0027,0.4181
+Y_full,net_out_lag2,Lag 1–5 ngày,0.002,-0.0613
+Y_full,hom_qua_la_le,"Lịch (thứ, tháng, lễ, ca)",0.0014,0.7705
+Y_full,ev_full_lag1,Tần suất sự kiện gần đây,0.001,0.6935
+Y_full,ev_short_lag1,Tần suất sự kiện gần đây,0.0003,0.306

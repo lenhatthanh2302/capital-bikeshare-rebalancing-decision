@@ -1,0 +1,20 @@
+﻿ma,khoi,noi_dung,chi_so,toan_tu,nguong,gia_tri_do_duoc,ket_qua
+L01,locked,"Lift@8 của GBM, nhãn thiếu xe",lift_short,>=,1.5,2.7848,Đạt
+L02,locked,"Lift@8 của GBM, nhãn đầy xe",lift_full,>=,1.5,3.413,Đạt
+L03,locked,"PR-AUC GBM hơn mốc 'cùng ca tuần trước', thiếu xe",prauc_hon_lag5_short,>,0,0.1156,Đạt
+L04,locked,"PR-AUC GBM hơn mốc 'cùng ca tuần trước', đầy xe",prauc_hon_lag5_full,>,0,0.1539,Đạt
+L05,locked,"Tỷ số xác suất dự báo TB / tỷ lệ thực, thiếu xe",ti_so_short,trong,0.7;1.3,1.1798,Đạt
+L06,locked,"Tỷ số xác suất dự báo TB / tỷ lệ thực, đầy xe",ti_so_full,trong,0.7;1.3,0.9362,Đạt
+L07,locked,ECE xác suất thiếu xe,ece_short,<=,0.03,0.0227,Đạt
+L08,locked,ECE xác suất đầy xe,ece_full,<=,0.03,0.0177,Đạt
+L09,locked,Giá trị thực GBM+MILP hơn ngẫu nhiên+MILP: cận dưới CI95 theo ngày,gbm_tru_ngau_nhien_CI_duoi,>,0,1.0356,Đạt
+L10,locked,Giá trị thực GBM+MILP hơn 'cùng ca tuần trước+MILP' (trung bình),gbm_tru_lag5_TB,>,0,0.7023,Đạt
+L11,locked,Tỷ lệ giá trị so với oracle,ti_le_so_oracle,>=,0.25,0.3886,Đạt
+L12,locked,MILP không kém Greedy về giá trị dự báo ở mọi ô,milp_ge_greedy_du_bao,>=,1,1.0,Đạt
+L13,locked,Số kiểm tra tự động của router không đạt,router_tests_fail,==,0,0.0,Đạt
+L14,locked,Tỷ lệ ô phải dùng chính sách dự phòng,fallback_share,<=,0.2,0.0,Đạt
+L15,locked,Giá trị mất do 3 tầng guardrail (sự kiện/ô),guardrail_mat_gia_tri,<=,0.3,0.2023,Đạt
+L16,locked,Độ trễ router p95 mỗi ô (ms),latency_p95_ms,<=,500,15.94,Đạt
+L17,locked,"Replay: dựng lại dev trùng bản đã lưu (đặc trưng, xác suất)",replay_max_diff,<=,0,0.0,Đạt
+L18,locked,Thí nghiệm rò rỉ trên ngày locked/OOT,leakage_max_diff,<=,0,0.0,Đạt
+L19,locked,Router replay trên policy_val trùng kết quả bước 8 (số khác biệt),router_replay_diff,<=,0,0.0,Đạt

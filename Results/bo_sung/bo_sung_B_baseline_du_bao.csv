@@ -1,0 +1,41 @@
+﻿khoi,nhan,mo_hinh,PR_AUC,Lift@8
+validation,Y_short,GBM,0.2448,2.289
+validation,Y_short,Tuần trước (đếm thô),0.1213,1.5
+validation,Y_short,Tuần trước / τ,0.1276,1.7086
+validation,Y_short,Tỷ lệ sự kiện 20 ngày,0.1528,1.8896
+validation,Y_short,Tỷ lệ lịch sử,0.107,1.3636
+validation,Y_full,GBM,0.24,2.8595
+validation,Y_full,Tuần trước (đếm thô),0.1332,1.3897
+validation,Y_full,Tuần trước / τ,0.1445,2.0016
+validation,Y_full,Tỷ lệ sự kiện 20 ngày,0.2,2.7582
+validation,Y_full,Tỷ lệ lịch sử,0.0974,1.1438
+policy_val,Y_short,GBM,0.3021,2.5418
+policy_val,Y_short,Tuần trước (đếm thô),0.2076,1.9344
+policy_val,Y_short,Tuần trước / τ,0.1973,2.0752
+policy_val,Y_short,Tỷ lệ sự kiện 20 ngày,0.2382,2.3622
+policy_val,Y_short,Tỷ lệ lịch sử,0.1573,1.2888
+policy_val,Y_full,GBM,0.3275,3.4
+policy_val,Y_full,Tuần trước (đếm thô),0.1906,1.926
+policy_val,Y_full,Tuần trước / τ,0.23,2.6007
+policy_val,Y_full,Tỷ lệ sự kiện 20 ngày,0.2734,3.152
+policy_val,Y_full,Tỷ lệ lịch sử,0.1704,1.7333
+locked,Y_short,GBM,0.3292,2.7848
+locked,Y_short,Tuần trước (đếm thô),0.2137,1.9816
+locked,Y_short,Tuần trước / τ,0.2062,2.0443
+locked,Y_short,Tỷ lệ sự kiện 20 ngày,0.2742,2.7681
+locked,Y_short,Tỷ lệ lịch sử,0.1457,1.2658
+locked,Y_full,GBM,0.3384,3.413
+locked,Y_full,Tuần trước (đếm thô),0.1845,1.8001
+locked,Y_full,Tuần trước / τ,0.2227,2.6142
+locked,Y_full,Tỷ lệ sự kiện 20 ngày,0.2906,3.3546
+locked,Y_full,Tỷ lệ lịch sử,0.1577,1.3413
+oot,Y_short,GBM,0.442,2.9948
+oot,Y_short,Tuần trước (đếm thô),0.2958,2.382
+oot,Y_short,Tuần trước / τ,0.2572,2.3043
+oot,Y_short,Tỷ lệ sự kiện 20 ngày,0.3387,2.814
+oot,Y_short,Tỷ lệ lịch sử,0.1742,1.2031
+oot,Y_full,GBM,0.3924,3.4323
+oot,Y_full,Tuần trước (đếm thô),0.2383,2.1583
+oot,Y_full,Tuần trước / τ,0.2615,2.6012
+oot,Y_full,Tỷ lệ sự kiện 20 ngày,0.3177,3.0944
+oot,Y_full,Tỷ lệ lịch sử,0.181,1.4155

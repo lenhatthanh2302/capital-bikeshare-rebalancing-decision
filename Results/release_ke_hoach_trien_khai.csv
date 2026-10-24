@@ -1,0 +1,8 @@
+﻿giai_doan,thoi_diem,noi_dung,dieu_kien_dat,neu_khong_dat
+1. Chạy bóng (shadow),Qua locked; ≥ 4 tuần,Router sinh lệnh mỗi ngày nhưng không giao xe tải; so lệnh với quyết định điều phối viên,Còn đạt L01–L11 trên cửa sổ trượt 4 tuần,Quay lại huấn luyện lại nếu không đạt
+2. Canary,Hết shadow đạt,"Một khu (13–15 trạm) chạy thật, CONTROL 10% giữ cố định, HITL bật; các khu còn lại giữ như cũ",Không vi phạm quy tắc cứng; A/A và cân bằng CONTROL đạt; điều phối viên chấp nhận ≥ 80% lệnh,"Tắt router, quay về quy tắc 'cùng ca tuần trước + Greedy'"
+3. Mở rộng,Hết canary đạt,Mở dần cả 6 khu; bắt đầu pilot ngẫu nhiên (K trong 2K) để đo hiệu ứng thật thay cho giả định b,Pilot đạt đủ ngày theo bảng sức mạnh (20–90 ngày),Rút về canary
+Điều kiện huấn luyện lại A,Giám sát hằng ngày,"PSI điểm dự báo ≥ 0,25 liên tiếp ≥ 5 ngày làm việc VÀ mô hình kém quy tắc dự phòng trên 20 ô gần nhất",,"Huấn luyện lại bằng dữ liệu mới, kiểm lại bằng tập khoá mới"
+Điều kiện huấn luyện lại B,Giám sát hằng ngày,Mô hình kém quy tắc dự phòng liên tiếp ≥ 10 ngày làm việc,,Như A
+Điều kiện huấn luyện lại C,Lịch,Quá 3 tháng kể từ lần huấn luyện gần nhất,,"Huấn luyện lại định kỳ, bắt buộc đổi mùa"
+Ngắt khẩn cấp,Bất kỳ lúc nào,Vi phạm quy tắc cứng hoặc kiểm tra tự động không đạt,,Tự chuyển quy tắc dự phòng và báo người phụ trách

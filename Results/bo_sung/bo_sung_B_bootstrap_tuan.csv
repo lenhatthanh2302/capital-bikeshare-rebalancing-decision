@@ -1,0 +1,16 @@
+﻿khoi,A,B,chenh_TB,CI_ngay_duoi,CI_ngay_tren,CI_tuan_duoi,CI_tuan_tren,so_ngay,so_tuan
+policy_val,GBM + MILP,Ngẫu nhiên + MILP,1.134,0.9012,1.3694,0.9223,1.3419,44,9
+policy_val,GBM + MILP,Tuần trước (đếm thô) + MILP,0.6955,0.4181,0.9602,0.464,0.8659,44,9
+policy_val,GBM + MILP,Tuần trước / τ + MILP,0.3977,0.117,0.667,0.1589,0.6318,44,9
+policy_val,GBM + MILP,Tỷ lệ sự kiện 20 ngày + MILP,0.1307,-0.1807,0.4444,-0.0693,0.3478,44,9
+policy_val,GBM + MILP,GBM + Greedy,0.2477,0.1159,0.3853,0.12,0.3767,44,9
+locked,GBM + MILP,Ngẫu nhiên + MILP,1.2673,0.9687,1.5718,0.9848,1.535,43,10
+locked,GBM + MILP,Tuần trước (đếm thô) + MILP,0.7023,0.4639,0.9605,0.523,0.8811,43,10
+locked,GBM + MILP,Tuần trước / τ + MILP,0.3791,0.0906,0.6815,0.1414,0.619,43,10
+locked,GBM + MILP,Tỷ lệ sự kiện 20 ngày + MILP,-0.1384,-0.3779,0.1001,-0.4273,0.127,43,10
+locked,GBM + MILP,GBM + Greedy,0.1698,0.0093,0.3465,0.0262,0.3033,43,10
+oot,GBM + MILP,Ngẫu nhiên + MILP,1.8286,1.5552,2.0892,1.5337,2.1557,66,14
+oot,GBM + MILP,Tuần trước (đếm thô) + MILP,0.8492,0.5946,1.1198,0.5294,1.2129,66,14
+oot,GBM + MILP,Tuần trước / τ + MILP,0.8902,0.6076,1.1871,0.5621,1.2038,66,14
+oot,GBM + MILP,Tỷ lệ sự kiện 20 ngày + MILP,0.2068,0.003,0.4212,0.0228,0.4553,66,14
+oot,GBM + MILP,GBM + Greedy,0.2227,0.1136,0.3394,0.1379,0.3118,66,14

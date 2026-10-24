@@ -1,0 +1,13 @@
+﻿nhan,khoi,phien_ban,PR_AUC,Lift@8
+Y_short,validation,cũ (đã lưu),0.2448,2.289
+Y_short,validation,sửa city_* (<22h),0.2424,2.4026
+Y_short,calibration,cũ (đã lưu),0.2021,2.6796
+Y_short,calibration,sửa city_* (<22h),0.1925,2.5243
+Y_short,policy_val,cũ (đã lưu),0.3021,2.5418
+Y_short,policy_val,sửa city_* (<22h),0.2976,2.6492
+Y_full,validation,cũ (đã lưu),0.24,2.8595
+Y_full,validation,sửa city_* (<22h),0.2379,3.0229
+Y_full,calibration,cũ (đã lưu),0.2234,3.3267
+Y_full,calibration,sửa city_* (<22h),0.2302,3.3465
+Y_full,policy_val,cũ (đã lưu),0.3275,3.4
+Y_full,policy_val,sửa city_* (<22h),0.3195,3.4

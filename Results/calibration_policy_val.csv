@@ -1,0 +1,13 @@
+﻿label,model,phien_ban,Brier,LogLoss,ECE,TB_xac_suat,ty_le_su_kien_thuc
+Y_short,GBM,Chưa hiệu chỉnh,0.0945,0.3184,0.0135,0.113,0.119
+Y_short,GBM,Platt (đã chọn),0.0955,0.3204,0.02,0.1365,0.119
+Y_short,GBM,Isotonic,0.0994,0.4189,0.0212,0.1381,0.119
+Y_short,Logit,Chưa hiệu chỉnh (đã chọn),0.0969,0.3285,0.0146,0.1133,0.119
+Y_short,Logit,Platt,0.0969,0.3281,0.0109,0.122,0.119
+Y_short,Logit,Isotonic,0.0978,0.3307,0.0125,0.1202,0.119
+Y_full,GBM,Chưa hiệu chỉnh (đã chọn),0.0837,0.2825,0.0154,0.0974,0.1065
+Y_full,GBM,Platt,0.0829,0.2803,0.0049,0.1111,0.1065
+Y_full,GBM,Isotonic,0.0839,0.2831,0.0147,0.1115,0.1065
+Y_full,Logit,Chưa hiệu chỉnh (đã chọn),0.0843,0.2886,0.0092,0.106,0.1065
+Y_full,Logit,Platt,0.0856,0.2913,0.0229,0.1268,0.1065
+Y_full,Logit,Isotonic,0.0864,0.294,0.025,0.1277,0.1065

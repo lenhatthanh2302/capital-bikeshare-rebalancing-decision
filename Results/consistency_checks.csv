@@ -1,0 +1,16 @@
+﻿phep_kiem,ky_vong,thuc_te,ket_qua
+Tổng dòng 33 file = số dòng đã biết từ khảo sát trước,17605262,17605262,Đạt
+Tổng dòng theo từng file cộng lại = tổng dòng nạp,17605262,17605262,Đạt
+Dòng gốc = dòng giữ lại + dòng bị loại,17605262,17605262,Đạt
+trips_clean.parquet có đúng số dòng giữ lại,17208188,17208188,Đạt
+ride_id duy nhất trong dữ liệu sạch,17208188,17208188,Đạt
+Thời lượng nhỏ nhất trong dữ liệu sạch >= 60s,>= 60,60,Đạt
+Thời lượng lớn nhất trong dữ liệu sạch <= 24h,<= 86400,86398,Đạt
+Tổng n_out (station_hour) = số chuyến sạch có mã trạm đi,14028332,14028332,Đạt
+Tổng n_in (station_hour) = số chuyến sạch có mã trạm đến,13959145,13959145,Đạt
+nostation_hour (out) = số chuyến sạch thiếu mã trạm đi,3179856,3179856,Đạt
+nostation_hour (in) = số chuyến sạch thiếu mã trạm đến,3249043,3249043,Đạt
+Chuyến thiếu mã trạm đi mà KHÔNG phải e-bike (kỳ vọng 0),0,0,Đạt
+"Mỗi (trạm, giờ) xuất hiện đúng một dòng trong station_hour",6908532,6908532,Đạt
+Mọi trạm trong station_hour đều có trong stations.parquet,0,0,Đạt
+Đủ 33 tháng trong dữ liệu sạch,33,33,Đạt

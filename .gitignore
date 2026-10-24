@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+Datasets/
+Data/*.parquet
+!Data/weather_hourly.parquet
+Data/weather_raw.json
+Results/dry_*

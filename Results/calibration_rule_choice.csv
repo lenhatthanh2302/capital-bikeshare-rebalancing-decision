@@ -1,0 +1,5 @@
+﻿label,model,ECE_tho_ngoai_mau,ECE_platt_ngoai_mau,da_chon
+Y_short,GBM,0.0174,0.0108,Platt
+Y_short,Logit,0.0182,0.0251,Chưa hiệu chỉnh
+Y_full,GBM,0.0194,0.0223,Chưa hiệu chỉnh
+Y_full,Logit,0.0208,0.0273,Chưa hiệu chỉnh

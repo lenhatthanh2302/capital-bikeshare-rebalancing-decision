@@ -1,0 +1,11 @@
+﻿Mục,Nội dung
+Đơn vị phân tích,"Một (trạm, ngày thường, ca) nằm trong tập 2K = 16 ứng viên rủi ro cao nhất của ca đó"
+Can thiệp,"Xe tải ghé trạm trong ca để cân bằng xe (nhận xe nếu thiếu, lấy xe nếu đầy)"
+Đối chứng,Không ghé trạm trong ca đó (vẫn theo dõi như bình thường)
+Cách gán,"Ngẫu nhiên hoá trong từng (ngày, ca): K trong 2K ứng viên được ghé, K còn lại là đối chứng; hạt giống ghi lại"
+Estimand,ATE trên nhóm ứng viên: chênh lệch xác suất xảy ra sự kiện hết/đầy xe giữa được ghé và không được ghé
+Kết cục đo đúng,Số phút trạm hết xe (hoặc đầy chỗ) từ nguồn tình trạng trạm theo thời gian thực (cần xác minh có thu thập được)
+Vì sao KHÔNG dùng Y hiện tại làm kết cục pilot,"Y dựa trên chuyến đã diễn ra (nhu cầu bị cắt cụt): trạm được thêm xe sẽ có thêm chuyến, làm net_out tăng chứ không giảm, nên Y bị méo theo chiều ngược"
+Giả định cần có,Không nhiễu lẫn nhờ ngẫu nhiên hoá; không tràn tác động (xe lấy từ trạm này làm trạm khác thiếu) -> theo dõi cả trạm cho xe; xe tải thực sự đến đúng trạm; đo kết cục độc lập với việc gán
+Rủi ro đạo đức/vận hành,"Không dữ liệu cá nhân của người thuê; đối chứng bị bỏ qua chủ yếu là trạm biên (hạng 9–16), không phải trạm rủi ro cao nhất; dừng pilot nếu chỉ số dịch vụ toàn hệ thống xấu đi quá ngưỡng"
+Sau pilot,Hiệu ứng ước lượng thay cho giả định b (lợi ích mỗi lần ghé) ở bước tối ưu; xem dị biệt theo nhóm trạm; giữ nhóm đối chứng cố định 8–10% khi vận hành thật

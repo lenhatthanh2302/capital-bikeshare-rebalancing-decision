@@ -1,0 +1,8 @@
+﻿chinh_sach,regret_TB_%,gia_tri_thuc_TB_moi_o,so_tram_TB,so_khu_TB,phut_TB,ms_moi_ca_giai
+Cùng ca tuần trước + MILP,74.424,1.965,8.0,2.989,139.773,7.829
+Ngẫu nhiên + MILP,78.907,1.588,8.0,3.0,140.0,8.315
+GBM + Greedy,68.255,2.412,6.932,3.523,139.773,0.085
+GBM + MILP,65.11,2.66,8.0,2.989,139.773,7.805
+Ridge + MILP,64.004,2.742,8.0,3.0,140.0,8.296
+SPO+ + MILP,64.004,2.742,8.0,3.0,140.0,8.067
+Oracle (biết kết quả),0.0,7.422,7.807,2.92,136.477,

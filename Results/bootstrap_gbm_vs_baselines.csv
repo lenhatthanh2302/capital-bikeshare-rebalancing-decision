@@ -1,0 +1,13 @@
+﻿label,so_sanh,chi_so,chenh_lech_TB,CI95_duoi,CI95_tren,CI_khong_chua_0
+Y_short,GBM − Logit,PR_AUC,0.0589,0.0308,0.0918,True
+Y_short,GBM − Logit,P@K,0.0228,-0.0058,0.0509,False
+Y_short,GBM − Lag5,PR_AUC,0.1224,0.0919,0.154,True
+Y_short,GBM − Lag5,P@K,0.0698,0.0298,0.109,True
+Y_short,GBM − Rate,PR_AUC,0.1387,0.1087,0.1702,True
+Y_short,GBM − Rate,P@K,0.0846,0.0545,0.1199,True
+Y_full,GBM − Logit,PR_AUC,0.0042,-0.0192,0.03,False
+Y_full,GBM − Logit,P@K,-0.005,-0.0378,0.0298,False
+Y_full,GBM − Lag5,PR_AUC,0.1069,0.0828,0.1333,True
+Y_full,GBM − Lag5,P@K,0.1275,0.0959,0.1577,True
+Y_full,GBM − Rate,PR_AUC,0.1442,0.116,0.1722,True
+Y_full,GBM − Rate,P@K,0.1532,0.1213,0.1868,True

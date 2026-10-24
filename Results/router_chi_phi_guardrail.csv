@@ -1,0 +1,6 @@
+﻿buoc,gia_tri_thuc_moi_o
+MILP thuần (không guardrail),2.66
++ Lớp 1 (quy tắc cứng),2.66
+"+ Lớp 2 (quy tắc mềm: điểm tối thiểu, giới hạn lần ghé)",2.635
++ Lớp 3 (PSI + xác nhận hiệu quả thực),2.578
+Thực thi thật (bỏ nhóm CONTROL),2.373

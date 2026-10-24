@@ -1,0 +1,22 @@
+﻿khoi,chinh_sach,gia_tri_TB_moi_o,ti_le_so_oracle
+policy_val,Oracle,7.4216,1.0
+policy_val,GBM + MILP,2.6602,0.3584
+policy_val,Tuần trước (đếm thô) + MILP,1.9648,0.2647
+policy_val,Tuần trước / τ + MILP,2.2625,0.3049
+policy_val,Tỷ lệ sự kiện 20 ngày + MILP,2.5295,0.3408
+policy_val,GBM + Greedy,2.4125,0.3251
+policy_val,Ngẫu nhiên + MILP,1.5263,0.2056
+locked,Oracle,7.5674,1.0
+locked,GBM + MILP,2.9407,0.3886
+locked,Tuần trước (đếm thô) + MILP,2.2384,0.2958
+locked,Tuần trước / τ + MILP,2.5616,0.3385
+locked,Tỷ lệ sự kiện 20 ngày + MILP,3.0791,0.4069
+locked,GBM + Greedy,2.7709,0.3662
+locked,Ngẫu nhiên + MILP,1.6734,0.2211
+oot,Oracle,7.7371,1.0
+oot,GBM + MILP,3.7447,0.484
+oot,Tuần trước (đếm thô) + MILP,2.8955,0.3742
+oot,Tuần trước / τ + MILP,2.8545,0.3689
+oot,Tỷ lệ sự kiện 20 ngày + MILP,3.5379,0.4573
+oot,GBM + Greedy,3.522,0.4552
+oot,Ngẫu nhiên + MILP,1.9161,0.2477

@@ -1,0 +1,7 @@
+﻿label,model,PR_AUC,P@K,Lift@K,ty_le_su_kien,ECE,TB_xac_suat,ti_so_du_bao_thuc
+Y_short,GBM,0.3292,0.3517,2.7848,0.1263,0.0227,0.149,1.1798
+Y_short,Cùng ca tuần trước,0.2137,0.2485,1.9678,0.1263,,,
+Y_short,Tỷ lệ lịch sử,0.1457,0.1599,1.2658,0.1263,,,
+Y_full,GBM,0.3384,0.3735,3.413,0.1094,0.0177,0.1025,0.9362
+Y_full,Cùng ca tuần trước,0.1845,0.1904,1.7397,0.1094,,,
+Y_full,Tỷ lệ lịch sử,0.1577,0.1468,1.3413,0.1094,,,

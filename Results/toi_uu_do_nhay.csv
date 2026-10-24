@@ -1,0 +1,41 @@
+﻿truc,gia_tri,chinh_sach,regret_%,gia_tri_thuc_TB,phut_TB
+K (trạm/ca),4,Greedy,63.189,1.47,97.727
+K (trạm/ca),4,MILP,63.189,1.47,97.727
+K (trạm/ca),6,Greedy,65.062,2.07,129.773
+K (trạm/ca),6,MILP,65.384,2.051,129.773
+K (trạm/ca),8,Greedy,68.255,2.412,139.773
+K (trạm/ca),8,MILP,65.11,2.66,139.773
+K (trạm/ca),10,Greedy,71.071,2.412,140.0
+K (trạm/ca),10,MILP,62.685,3.127,140.0
+K (trạm/ca),12,Greedy,71.071,2.412,140.0
+K (trạm/ca),12,MILP,62.152,3.167,140.0
+Ngân sách B (phút),100,Greedy,71.613,1.688,100.0
+Ngân sách B (phút),100,MILP,58.253,2.475,100.0
+Ngân sách B (phút),120,Greedy,71.23,2.045,120.0
+Ngân sách B (phút),120,MILP,61.312,2.766,120.0
+Ngân sách B (phút),140,Greedy,68.255,2.412,139.773
+Ngân sách B (phút),140,MILP,65.11,2.66,139.773
+Ngân sách B (phút),170,Greedy,66.274,2.617,157.045
+Ngân sách B (phút),170,MILP,65.161,2.7,155.0
+Ngân sách B (phút),230,Greedy,65.417,2.693,160.909
+Ngân sách B (phút),230,MILP,65.417,2.693,160.909
+Phí vào khu F (phút),10,Greedy,65.417,2.693,120.455
+Phí vào khu F (phút),10,MILP,65.417,2.693,120.455
+Phí vào khu F (phút),20,Greedy,68.255,2.412,139.773
+Phí vào khu F (phút),20,MILP,65.11,2.66,139.773
+Phí vào khu F (phút),30,Greedy,73.574,1.874,140.0
+Phí vào khu F (phút),30,MILP,60.914,2.766,140.0
+Phí vào khu F (phút),40,Greedy,64.419,2.106,140.0
+Phí vào khu F (phút),40,MILP,58.207,2.475,125.0
+Giá trị đầy/thiếu (b_đầy),0.5,Greedy,68.608,2.312,139.545
+Giá trị đầy/thiếu (b_đầy),0.5,MILP,64.671,2.614,139.545
+Giá trị đầy/thiếu (b_đầy),0.7,Greedy,68.255,2.412,139.773
+Giá trị đầy/thiếu (b_đầy),0.7,MILP,65.11,2.66,139.773
+Giá trị đầy/thiếu (b_đầy),1.0,Greedy,66.247,2.67,140.0
+Giá trị đầy/thiếu (b_đầy),1.0,MILP,61.37,3.057,140.0
+Nguồn xác suất,raw,Greedy,68.25,2.412,140.0
+Nguồn xác suất,raw,MILP,63.098,2.807,140.0
+Nguồn xác suất,final,Greedy,68.255,2.412,139.773
+Nguồn xác suất,final,MILP,65.11,2.66,139.773
+Nguồn xác suất,platt,Greedy,67.357,2.474,139.773
+Nguồn xác suất,platt,MILP,64.139,2.727,139.773

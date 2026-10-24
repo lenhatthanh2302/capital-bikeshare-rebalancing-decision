@@ -1,0 +1,5 @@
+﻿kiem_tra,gia_tri,ket_qua
+"Replay: đặc trưng dev dựng lại trùng features_dev.parquet (lệch lớn nhất 1.8e-15, dung sai 1e-9)",0.0,Đạt
+Replay: xác suất dev tính lại trùng pred_dev.parquet,0.0,Đạt
+Rò rỉ: ghi đè tương lai bằng 99999 không làm đổi đặc trưng,0.0,Đạt
+Replay: router trên policy_val trùng router_plan_policy_val.csv (08),0.0,Đạt

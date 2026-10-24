@@ -1,0 +1,5 @@
+﻿chinh_sach,su_kien_ky_vong_moi_ca,phut_moi_ca,chi_phi_$_moi_ca,hoa_von_$_moi_su_kien,hoa_von_so_chuyen_mat_moi_su_kien
+Ngẫu nhiên + MILP,1.59,140.0,210.0,440.94,146.98
+GBM + Greedy,2.41,139.77,209.66,289.68,96.56
+GBM + MILP,2.66,139.77,209.66,262.71,87.57
+SPO+ + MILP,2.74,140.0,210.0,255.28,85.09

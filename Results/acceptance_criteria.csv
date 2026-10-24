@@ -1,0 +1,31 @@
+﻿ma,khoi,noi_dung,chi_so,toan_tu,nguong,ly_do_chon_nguong,gia_tri_policy_val,cong_bo_luc
+L01,locked,"Lift@8 của GBM, nhãn thiếu xe",lift_short,>=,1.5,"Bằng 60% mức đo trên policy_val (2,5); nhỏ hơn 1,5 thì xếp hạng gần như không hơn ngẫu nhiên",2.5418,2026-10-23T14:29:52
+L02,locked,"Lift@8 của GBM, nhãn đầy xe",lift_full,>=,1.5,"Như L01 (policy_val 3,4)",3.4,2026-10-23T14:29:52
+L03,locked,"PR-AUC GBM hơn mốc 'cùng ca tuần trước', thiếu xe",prauc_hon_lag5_short,>,0,Mô hình phải hơn quy tắc đơn giản đang có sẵn,0.0946,2026-10-23T14:29:52
+L04,locked,"PR-AUC GBM hơn mốc 'cùng ca tuần trước', đầy xe",prauc_hon_lag5_full,>,0,Như L03,0.1369,2026-10-23T14:29:52
+L05,locked,"Tỷ số xác suất dự báo TB / tỷ lệ thực, thiếu xe",ti_so_short,trong,0.7;1.3,"Sai lệch ±30% là biên chịu được vì tỷ lệ sự kiện đổi theo mùa 7,7%–11,9%",1.1471,2026-10-23T14:29:52
+L06,locked,"Tỷ số xác suất dự báo TB / tỷ lệ thực, đầy xe",ti_so_full,trong,0.7;1.3,Như L05,0.9146,2026-10-23T14:29:52
+L07,locked,ECE xác suất thiếu xe,ece_short,<=,0.03,"Gấp rưỡi mức policy_val (0,020)",0.02,2026-10-23T14:29:52
+L08,locked,ECE xác suất đầy xe,ece_full,<=,0.03,"Gấp đôi mức policy_val (0,015)",0.0154,2026-10-23T14:29:52
+L09,locked,Giá trị thực GBM+MILP hơn ngẫu nhiên+MILP: cận dưới CI95 theo ngày,gbm_tru_ngau_nhien_CI_duoi,>,0,"Phải hơn ngẫu nhiên một cách có ý nghĩa, không chỉ về điểm",0.8344,2026-10-23T14:29:52
+L10,locked,Giá trị thực GBM+MILP hơn 'cùng ca tuần trước+MILP' (trung bình),gbm_tru_lag5_TB,>,0,Mô hình phải đáng giá hơn quy tắc dự phòng,0.6955,2026-10-23T14:29:52
+L11,locked,Tỷ lệ giá trị so với oracle,ti_le_so_oracle,>=,0.25,"Policy_val 0,36, ngẫu nhiên 0,21: cần ở trên mức ngẫu nhiên rõ rệt",0.3584,2026-10-23T14:29:52
+L12,locked,MILP không kém Greedy về giá trị dự báo ở mọi ô,milp_ge_greedy_du_bao,>=,1,Tính chất toán học của nghiệm tối ưu; vi phạm = lỗi bộ giải,1.0,2026-10-23T14:29:52
+L13,locked,Số kiểm tra tự động của router không đạt,router_tests_fail,==,0,Ràng buộc cứng và idempotency không có ngoại lệ,0.0,2026-10-23T14:29:52
+L14,locked,Tỷ lệ ô phải dùng chính sách dự phòng,fallback_share,<=,0.2,"Policy_val 2,3%; trên 20% nghĩa là mô hình không còn dùng được",0.0227,2026-10-23T14:29:52
+L15,locked,Giá trị mất do 3 tầng guardrail (sự kiện/ô),guardrail_mat_gia_tri,<=,0.3,"Policy_val 0,08; guardrail không được ăn quá ~10% giá trị",0.0818,2026-10-23T14:29:52
+L16,locked,Độ trễ router p95 mỗi ô (ms),latency_p95_ms,<=,500,"Thời hạn từ t0 22:00 đến đầu ca 06:00 là 8 giờ; 0,5 giây là rất rộng",27.385,2026-10-23T14:29:52
+L17,locked,"Replay: dựng lại dev trùng bản đã lưu (đặc trưng, xác suất)",replay_max_diff,<=,0,Quy trình phải tái lập được,0.0,2026-10-23T14:29:52
+L18,locked,Thí nghiệm rò rỉ trên ngày locked/OOT,leakage_max_diff,<=,0,Đặc trưng ngày D không được đổi khi ghi đè tương lai,0.0,2026-10-23T14:29:52
+L19,locked,Router replay trên policy_val trùng kết quả bước 8 (số khác biệt),router_replay_diff,<=,0,Bản router dùng ở bước 10 phải đúng là bản đã duyệt,0.0,2026-10-23T14:29:52
+O01,oot,"Lift@8 của GBM, thiếu xe (OOT, stress)",lift_short,>=,1.2,"Nới hơn locked: OOT xa hơn, chỉ cần còn hơn ngẫu nhiên rõ",2.5418,2026-10-23T14:29:52
+O02,oot,"Lift@8 của GBM, đầy xe (OOT, stress)",lift_full,>=,1.2,Như O01,3.4,2026-10-23T14:29:52
+O03,oot,Giá trị thực GBM+MILP hơn ngẫu nhiên+MILP (trung bình),gbm_tru_ngau_nhien_TB,>,0,Tối thiểu không tệ hơn ngẫu nhiên,1.0728,2026-10-23T14:29:52
+O04,oot,Số kiểm tra tự động của router không đạt,router_tests_fail,==,0,Hệ thống phải còn an toàn dù dữ liệu trôi,0.0,2026-10-23T14:29:52
+O05,oot,Giá trị mất do 3 tầng guardrail (sự kiện/ô),guardrail_mat_gia_tri,<=,0.3,Như L15,0.0818,2026-10-23T14:29:52
+O06,oot,Độ trễ router p95 mỗi ô (ms),latency_p95_ms,<=,500,Như L16,27.385,2026-10-23T14:29:52
+Q1,quy_tac,"Locked chỉ mở MỘT lần; kết quả được công bố nguyên trạng, không chỉnh mô hình/ngưỡng τ/tham số rồi chạy lại",,,,Chống chọn mô hình theo locked,,2026-10-23T14:29:52
+Q2,quy_tac,Đạt toàn bộ L01–L19 -> được phép chạy thử có kiểm soát (canary),,,,,,2026-10-23T14:29:52
+Q3,quy_tac,Không đạt bất kỳ L nào -> chỉ chạy bóng (shadow): ghi dự báo và lệnh nhưng KHÔNG giao xe tải; điều tra nguyên nhân trước khi chạy lại ở một khoá mới,,,,,,2026-10-23T14:29:52
+Q4,quy_tac,OOT là cửa sổ stress: không đạt O01–O06 không bác bỏ bản phát hành nhưng bắt buộc xem xét huấn luyện lại; không dùng OOT để chỉnh mô hình,,,,,,2026-10-23T14:29:52
+Q5,quy_tac,Ngưỡng được đặt SAU khi đã xem policy_val (không phải locked) và dựa trên lập luận vận hành; điều này được thú nhận trong báo cáo,,,,,,2026-10-23T14:29:52

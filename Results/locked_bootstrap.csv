@@ -1,0 +1,4 @@
+﻿A,B,chenh_TB,CI95_duoi,CI95_tren
+GBM + MILP,Ngẫu nhiên + MILP,1.3315,1.0356,1.6448
+GBM + MILP,Cùng ca tuần trước + MILP,0.7023,0.451,0.964
+GBM + MILP,GBM + Greedy,0.1698,0.0127,0.3326

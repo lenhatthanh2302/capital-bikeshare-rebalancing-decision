@@ -1,0 +1,7 @@
+﻿A,B,chenh_gia_tri_TB,CI95_duoi,CI95_tren,CI_khong_chua_0
+GBM + MILP,GBM + Greedy,0.2477,0.1113,0.383,True
+SPO+ + MILP,Ridge + MILP,0.0,0.0,0.0,False
+SPO+ + MILP,GBM + MILP,0.0818,-0.0819,0.2671,False
+Ridge + MILP,GBM + MILP,0.0818,-0.0966,0.2739,False
+GBM + MILP,Ngẫu nhiên + MILP,1.0727,0.7601,1.4159,True
+GBM + MILP,Cùng ca tuần trước + MILP,0.6955,0.4351,0.9569,True

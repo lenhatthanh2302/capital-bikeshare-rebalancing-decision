@@ -1,0 +1,7 @@
+﻿ma,khoi,noi_dung,chi_so,toan_tu,nguong,gia_tri_do_duoc,ket_qua
+O01,oot,"Lift@8 của GBM, thiếu xe (OOT, stress)",lift_short,>=,1.2,2.9948,Đạt
+O02,oot,"Lift@8 của GBM, đầy xe (OOT, stress)",lift_full,>=,1.2,3.4323,Đạt
+O03,oot,Giá trị thực GBM+MILP hơn ngẫu nhiên+MILP (trung bình),gbm_tru_ngau_nhien_TB,>,0,1.9102,Đạt
+O04,oot,Số kiểm tra tự động của router không đạt,router_tests_fail,==,0,0.0,Đạt
+O05,oot,Giá trị mất do 3 tầng guardrail (sự kiện/ô),guardrail_mat_gia_tri,<=,0.3,0.4455,KHÔNG ĐẠT
+O06,oot,Độ trễ router p95 mỗi ô (ms),latency_p95_ms,<=,500,15.7877,Đạt

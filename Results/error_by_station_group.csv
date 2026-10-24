@@ -1,0 +1,5 @@
+﻿label,nhom,ty_le_su_kien,PR_AUC_GBM,TyLe_bo_sot_top8
+Y_short,20 trạm đông nhất,0.0955,0.2795,0.8261
+Y_short,60 trạm còn lại,0.0953,0.2538,0.7713
+Y_full,20 trạm đông nhất,0.0961,0.2838,0.8285
+Y_full,60 trạm còn lại,0.0886,0.2688,0.7345
